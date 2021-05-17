@@ -35,3 +35,7 @@
 .content {
     flex: 1 0 auto;
 }
+
+.inputincome {
+    padding-left: 15px;
+}

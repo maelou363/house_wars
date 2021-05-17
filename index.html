@@ -25,19 +25,33 @@
                 <h2>How much can I borrow?</h2>
             </section>
         </header>
-        <section>
+        <form class="form" id="inputform">
+          <section>
+
             <h4>Total Gross Income</h4>
-            <input class= "calcinput">
+            <input name="num1" type="number" id="num1" class= "num1">
             <h4>Total Debt / Major Expenses</h4>
-            <input class= "calcinput">
-            <button>Calculate</button>
+            <input name="num2" type="number" id="num2" class= "num2">
+
+            <div class="submit">
+              <button id="button">Calculate</button>
+            </div>
+
+        </form>
+
+          </section>
+        <section>
+          <h3 id="results"></h3>
         </section>
     </div>
+    
 
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="calculate.js"></script>
+    
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
@@ -53,7 +67,7 @@
             </ul>
             <br>
             <br>
-            <p class="copyright">Copyright 2021 / <a href="terms-conditions.html">Terms and Conditions</a></p>
+            <p class="copyright">Copyright 2021 <a href="terms-conditions.html">Terms and Conditions</a></p>
 
         </footer>
   </body>
