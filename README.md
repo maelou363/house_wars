@@ -83,7 +83,7 @@ Our color scheme was created to create a little bit of colour but muted colour s
 ### 3. Logo
 
 <p align="center">
-    <img src="assets/images/housing_logo.png" alt="logo">
+    <img src="assets/images/housing_logo.png" alt="logo of house wars calculator">
 </p>
 
 ## 4. Wireframing & Proposed/Implemented Functionality per Page
