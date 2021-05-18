@@ -28,16 +28,13 @@
     flex: 1 0 auto;
 }
 
-.inputincome {
-    padding-left: 15px;
-}
-
+/* ------------------------- INPUT FORM --------------------------- */
 
 .form {
     border-style: solid;
     border-radius: 20px;
     border-width: 1px;
-    padding: 35px 35px 50px 35px;
+    padding: 35px 35px 35px 35px;
     background-color: var(--primary-color);
 }
 
@@ -45,6 +42,12 @@
     color: #ffff;
     font-weight: 400;
     font-size: 18px;
+}
+
+.resetbutton {
+    padding-top: 15px;
+    color: var(--background-blue);
+    text-align: center;
 }
 
 

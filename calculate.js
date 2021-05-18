@@ -9,6 +9,11 @@ function numberWithCommas(x) {
     return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
 
+/* reset input form to enter in new numbers */
+function reset() {
+    document.getElementById("inputform").reset();
+ }
+
 
 form.addEventListener('submit', function(event) {
     if (!num1.value || !num2.value) {
