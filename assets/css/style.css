@@ -46,3 +46,66 @@
     font-weight: 400;
     font-size: 18px;
 }
+
+
+/* ------------------------- FOOTER --------------------------- */
+
+footer {
+    background-color: white;
+    height: 88px;
+}
+
+.social-networks{
+    text-align: right;
+    padding-right: 15px;
+
+}
+
+.social-networks li{
+    display: inline;
+}
+
+.social-networks i{
+    font-size: 120%;
+    margin: 1%;
+    padding: 1px;
+    color: #121212;
+}
+
+footer ul {
+    width: 40%;
+    float: right;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 12px;
+    display: inline;
+    text-align: left;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.footer {
+    flex-shrink: 0;
+}
+
+.copyright {
+    margin-top: 50px;
+    text-align: right;
+    color: #252525;
+    text-decoration-color: none;
+    text-decoration-line: none;
+    padding-left: 10px;
+}
+
+.copyright a {
+    color: #252525;
+    text-decoration-color: none;
+    text-decoration-line: none;
+}
+
+.copyright a:hover {
+    color: var(--secondary-color);
+}
+
