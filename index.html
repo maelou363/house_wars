@@ -16,30 +16,33 @@
     <!-- Header Nav -->
     <div class="content">
         <header>
-            <nav class="logo navbar sticky-top navbar-light bg-white">
-                <a class="navbar-brand" href="#">
-                  <img src="assets/images/housing_logo.png" width="225" height="100" alt="">
-                </a>
-              </nav>
+          <div class="container">
+            <nav class="logo navbar sticky-top navbar-light bg-white justify-content-center">
+              <a class="navbar-brand" href="index.html">
+                <img src="assets/images/housing_logo.png" width="225" height="100" alt="">
+              </a>
+            </nav>
+          </div>
             <section class = "header-title">
                 <h2>How much can I borrow?</h2>
             </section>
         </header>
-        <form class="form" id="inputform">
-          <section>
+        <div class="container">
+          <form class="form" id="inputform">
+            <section>
+  
+              <h4>Total Gross Income</h4>
+              <input name="num1" type="number" id="num1" class= "num1">
+              <h4>Total Debt / Major Expenses</h4>
+              <input name="num2" type="number" id="num2" class= "num2">
+  
+              <div class="submit">
+                <button id="button">Calculate</button>
+              </div>
+          </form>
+            </section>
+        </div>
 
-            <h4>Total Gross Income</h4>
-            <input name="num1" type="number" id="num1" class= "num1">
-            <h4>Total Debt / Major Expenses</h4>
-            <input name="num2" type="number" id="num2" class= "num2">
-
-            <div class="submit">
-              <button id="button">Calculate</button>
-            </div>
-
-        </form>
-
-          </section>
         <section>
           <h3 id="results"></h3>
         </section>
