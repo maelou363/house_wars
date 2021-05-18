@@ -12,6 +12,10 @@ form.addEventListener('submit', function(event) {
 
         var result = (x - y) * 3.5;
         results.innerText="You can potentially borrow: "+result;
+        var mortgdeposit = result*.20;
+        deposit.innerText="You deposit needs to be: "+mortgdeposit;
+        var totalmortg = result + mortgdeposit;
+        buyingpower.innerText="Your total buying power is: "+totalmortg;
         event.preventDefault();
 
     }
