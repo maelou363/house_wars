@@ -5,19 +5,11 @@
 
 :root {
     --primary-color: #3A3A44;
-    --secondary-color: #C08E31;
+    --secondary-color: #CF9D3F;
     --third-color: #D7AF4D;
     --supplementary-dark: #D6D9E1;
     --background-blue: #EEF5F7;
   }
-  
-  
-  
-  /* * {
-      margin: 0;
-      padding: 0;
-      border: 0;
-  } */
   
   
   html, body {
@@ -46,5 +38,11 @@
     border-radius: 20px;
     border-width: 1px;
     padding: 35px 35px 50px 35px;
-    background-color: var(--supplementary-dark);
+    background-color: var(--primary-color);
+}
+
+.form label {
+    color: #ffff;
+    font-weight: 400;
+    font-size: 18px;
 }
