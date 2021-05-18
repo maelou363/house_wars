@@ -33,7 +33,7 @@
 
 ## What does it do and what does it need to fulfill?
 
-The goal of House Wars is to create a calculator that won't ask a bunch of unnecessary questions just to get an idea of how much you can borrow. There are plenty of calculators out there but they ask questions like your date of birth, how many children you have etc. For house searches just wanting to get a rough idea on how much they could potentially borrow and the deposit House Wars is created with this need in mind. 
+The goal of House Wars is to create a calculator that won't ask a bunch of unnecessary questions just to get an idea of how much you can borrow and required deposit. As I begin my house hunting and opressive reality of the Dublin housing market as made me want to create this. Just one less thing to worry about. There are plenty of calculators out there but they ask questions like your date of birth, how many children you have etc. For house searches just wanting to get a rough idea on how much they could potentially borrow and the deposit House Wars is created with this need in mind.
 
 House wars is created with mobile first in mind. You'll be able to quickly enter in your income and get a result on how much you can borrow along with the potentially deposit you'll have to come up with. 
 
@@ -47,9 +47,9 @@ This was my second of four Milestone Projects that are a part of the Full Stack 
 
 ## Main Objectives
 
-* To create a seemless experience for the user. Created with mobile first in mind as majority of users will be 'on-the-go' when they are simply curious if they could afford. 
-* Allow user to quickly be able to see results without just one click.
-* To allow user to save results so they don't have to continually go back to remember what the results where.
+* To create a seemless experience for the user. Created with mobile first in mind as majority of users will be 'on-the-go' when they are simply curious if they could afford a certain house or perhaps if their financial position changes. 
+* Allow user to quickly be able to see results with just one click.
+* To allow user to save results so they don't have to continually go back to remember what the results were.
 * To create a design that is responsive on all devices and screen sizes but with mobile first thinking.
 
 
@@ -57,7 +57,7 @@ This was my second of four Milestone Projects that are a part of the Full Stack 
 
 _User:_
 * As a user I want to be able to click once to see what my borrowing and buying power is.
-* 
+* As a user I'd like to be able to save the results so I don't have to continue to go back and remember what the results were.
 * 
 
 
@@ -94,16 +94,7 @@ Wireframes for this project were created using Affinity Design and Sketch for bo
 <summary>Wireframes</summary>
 
 <p align="center">
-    <img src="assets/images/wireframes/desktop wireframe fpp.png" alt="desktop landing page">
-</p>
-<p align="center">
-    <img src="assets/images/wireframes/mobile wireframe fpp.png" alt="mobile landing page">
-</p>
-<p align="center">
-    <img src="assets/images/wireframes/Desktop-Wireframes.jpg" alt="desktop wireframes">
-</p>
-<p align="center">
-    <img src="assets/images/wireframes/Mobile-Wireframes.jpg" alt="mobile wireframes">
+    <img src="assets/images/wireframes.jpg" alt="house wars wireframes">
 </p>
 </details>
 
@@ -137,7 +128,7 @@ Wireframes for this project were created using Affinity Design and Sketch for bo
 #### Future Features:
 
 * I'd like to create a future feature where once established how much you can borrow to bring up properties within that price range. 
-* 
+* To create a feature that allows First Time Homebuyers to click so it calculates a 10% down deposit.
 * 
 * 
 
