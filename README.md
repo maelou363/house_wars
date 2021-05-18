@@ -33,9 +33,9 @@
 
 ## What does it do and what does it need to fulfill?
 
-The goal of House Wars is to create a calculator that won't ask a bunch of unnecessary questions just to get an idea of how much you can borrow and required deposit. As I begin my house hunting and opressive reality of the Dublin housing market as made me want to create this. Just one less thing to worry about. There are plenty of calculators out there but they ask questions like your date of birth, how many children you have etc. For house searches just wanting to get a rough idea on how much they could potentially borrow and the deposit House Wars is created with this need in mind.
+The goal of House Wars is to create a calculator that won't ask a bunch of unnecessary questions just to get an idea of how much you can borrow and what the required deposit would be. As I begin my house hunting the opressive reality of the Dublin housing market has made me want to create this. Just one less thing to enter to check a property. There are plenty of calculators out there but they ask so many questions like your date of birth, how many children you have etc. For house searches just wanting to get a rough idea on how much they could potentially borrow and the deposit House Wars is created with this need in mind.
 
-House wars is created with mobile first in mind. You'll be able to quickly enter in your income and get a result on how much you can borrow along with the potentially deposit you'll have to come up with. 
+House wars is created with mobile first in mind. You'll be able to quickly enter in your income and get a result on how much you can borrow along with the potentially deposit you'll have to come up with.
 
 It's clean design that is streamlined and to the point. One page calculator where you can enter your basic details to get that rough mortgage buying power saving the user time and giving them the information quickly.
 
@@ -90,13 +90,11 @@ Our color scheme was created to create a little bit of colour but muted colour s
 
 Wireframes for this project were created using Affinity Design and Sketch for both mobile and desktop. Each element was structurally planned out before building the project to be sure all elements were accounted for and worked together.
 
-<details>
 <summary>Wireframes</summary>
 
 <p align="center">
     <img src="assets/images/wireframes.jpg" alt="house wars wireframes">
 </p>
-</details>
 
 [Back to Top](#table-of-contents)
 
