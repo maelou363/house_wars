@@ -24,10 +24,8 @@
             </nav>
           </div>
         </header>
+        <!-- Mortgage Calculator Form / Input Section-->
         <div class="container">
-          <section class = "header-title">
-            <h6 class="header-title">How much can I afford to buy?</h6>
-          </section>
           <form class="form" id="inputform">
             <section>
               <div class="form-group">
@@ -42,19 +40,19 @@
                   <button id="button" class="btn btn-primary btn-lg btn-block">Calculate</button>
                 </div>
                 <div class="form-group resetbutton">
-                  <input type="button" class="resetbutton btn btn-default"  onclick="reset()" value="Reset">
+                  <input type="button" class="resetbutton btn btn-default"  onclick="resetValue()" value="Reset">
                 </div>
-
           </form>
             </section>
         </div>
-
+        <div></div>
+        <!-- Results Section-->
         <div class="container">
-          <section>
+          <form id="inputform" class="resultssection">
             <h3 id="results"></h3>
             <h3 id="deposit"></h3>
             <h3 id="buyingpower"></h3>
-          </section>
+          </form>
         </div>
     </div>
     

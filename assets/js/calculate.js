@@ -43,3 +43,8 @@ form.addEventListener('submit', function(event) {
 
     }
 });
+
+/* Will show results section upon calculation button clicked */
+$('.submit').click(function() {
+    $('.resultssection').css('display', 'block');
+});
