@@ -9,7 +9,7 @@ function numberWithCommas(x) {
     return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
 
-
+/* when typing numbers in input form will automatically add commas */
 $('input.number').keyup(function(event) {
 
     // skip for arrow keys
@@ -23,11 +23,6 @@ $('input.number').keyup(function(event) {
       ;
     });
   });
-
-/* reset input form to enter in new numbers */
-function reset() {
-    document.getElementById("inputform").reset();
- }
 
 form.addEventListener('submit', function(event) {
     /* checking that valid values have been entered */
