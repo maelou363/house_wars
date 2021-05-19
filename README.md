@@ -144,8 +144,8 @@ Used multiple devices and feedback from family who went to the deployed site on 
 
 
 ## Found Bugs & Fixes:
-* 
-* 
+* When hitting the reset button it does not clear the results - only clears the inputs entered.
+* Adding commas to the input fields created a problem with our calculations. We ended up having to remove the type="number" from the input field to work with our Jquery but then was concerned from a UI standpoint that they would have to click another time to access the proper number keyboard. Our work around was type="tel"
 * 
 * 
 * 
