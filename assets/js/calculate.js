@@ -36,7 +36,7 @@ form.addEventListener('submit', function(event) {
         var result = (x - y) * 3.5;
         results.innerText="You can potentially borrow: €"+numberWithCommas(result);
         var mortgdeposit = result*.20;
-        deposit.innerText="Your deposit needs to be: €"+numberWithCommas(mortgdeposit);
+        deposit.innerText="Your 20% deposit needs to be: €"+numberWithCommas(mortgdeposit);
         var totalmortg = result + mortgdeposit;
         buyingpower.innerText="Your total buying power is: €"+numberWithCommas(totalmortg);
         event.preventDefault();
