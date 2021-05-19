@@ -33,13 +33,13 @@
 
 ## What does it do and what does it need to fulfill?
 
-The goal of House Wars is to create a calculator that won't ask a bunch of unnecessary questions just to get an idea of how much you can borrow and what the required deposit would be. As I begin my house hunting the opressive reality of the Dublin housing market has made me want to create this. Just one less thing to enter to check a property. There are plenty of calculators out there but they ask so many questions like your date of birth, how many children you have etc. For house searches just wanting to get a rough idea on how much they could potentially borrow and the deposit House Wars is created with this need in mind.
+The goal of House Wars is to create a calculator that won't ask a bunch of unnecessary questions just to get an idea of how much you can borrow and what the required deposit would be. As I begin my house hunting the oppressive reality of the Dublin housing market has made me want to create this. Just one less thing to enter to check what our buying power is. There are plenty of calculators out there but they ask so many questions like your date of birth, how many children you have etc. etc. For house searches just wanting to get a rough idea on how much they could potentially borrow with their income and the deposit House Wars is created with this need in mind.
 
-House wars is created with mobile first in mind. You'll be able to quickly enter in your income and get a result on how much you can borrow along with the potentially deposit you'll have to come up with.
+House wars is created with mobile first in mind. You'll be able to quickly enter in your income and get a result on how much you can borrow along with the potentially deposit you'll have to come up with which gives your total buying power.
 
-It's clean design that is streamlined and to the point. One page calculator where you can enter your basic details to get that rough mortgage buying power saving the user time and giving them the information quickly.
+It is a clean design that is streamlined and to the point. A one page calculator where you can enter your basic details to get that rough mortgage buying power saving the user time and giving them the information quickly.
 
-This was my second of four Milestone Projects that are a part of the Full Stack Web Development Program at The Code Insitute. That requirements were to make a responsive application using HTML, CSS and Javascript.
+This is my second of four Milestone Projects that are a part of the Full Stack Web Development Program at The Code Insitute. That requirements were to make a responsive application using HTML, CSS and Javascript.
 
 [Click here to view the project live](https://maelou363.github.io/house_wars)
 
@@ -58,13 +58,13 @@ This was my second of four Milestone Projects that are a part of the Full Stack 
 _User:_
 * As a user I want to be able to click once to see what my borrowing and buying power is.
 * As a user I'd like to be able to save the results so I don't have to continue to go back and remember what the results were.
-* 
+* As a user I would like to send the results to a family member.
 
 
 # Design
 
-* 
-* 
+* I'm designing this with mobile first in mind. Which brings some things into play. So I when the user lands on the page they can access everything (no scrolling) to the income, expense, calculate and reset mobile in one spot. I want it to be visually clean and free from any impediences. A smooth transition to the calculate and view results. With that in mind I implemented a few things like commas in the input and results so users can visually see what they are entering better, automatically entering 'O' for total debt/major expenses and making input fields numbers so when on mobile there is no need to for that extra click to make that change to the number keyboard.
+* I want this to be a clean design. Visually appealing and the call to action obvious on what they need to do at each step.
 * 
 * 
 

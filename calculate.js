@@ -29,7 +29,6 @@ function reset() {
     document.getElementById("inputform").reset();
  }
 
-
 form.addEventListener('submit', function(event) {
     /* checking that valid values have been entered */
     if (!num1.value || !num2.value) {
