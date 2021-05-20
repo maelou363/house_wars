@@ -3,6 +3,9 @@ function resetValue() {
     document.getElementById("inputform").reset();
  }
 
-//  $('.resetbutton').click(function() {
-//     $('.resultssection').css('display', 'none');
-// });
+/* resets results section and hides previous results when reset button is hit */ 
+$('.resetbutton').click(function() {
+    $('.resultssection').css('display', 'none');
+});
+
+
