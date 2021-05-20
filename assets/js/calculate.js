@@ -25,7 +25,7 @@ $('input.number').keyup(function(event) {
   });
 
 function getFocus() {
-    window.location.hash = '#resultssection';
+    document.getElementById('resultssection').scrollIntoView();
   }
 
 form.addEventListener('submit', function(event) {
