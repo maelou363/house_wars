@@ -28,6 +28,7 @@ form.addEventListener('submit', function(event) {
     /* checking that valid values have been entered */
     if (!num1.value || !num2.value) {
         alert("Please enter both income and debt");
+        $('.resultssection').css('display', 'none');
     } else {
         var x = parseFloat(num1.value.replace(/,/g, ''));
         var y = parseFloat(num2.value.replace(/,/g, ''));
