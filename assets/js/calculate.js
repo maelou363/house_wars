@@ -24,6 +24,10 @@ $('input.number').keyup(function(event) {
     });
   });
 
+function getFocus() {
+    window.location.hash = '#resultssection';
+  }
+
 form.addEventListener('submit', function(event) {
     /* checking that valid values have been entered */
     if (!num1.value || !num2.value) {
@@ -41,7 +45,6 @@ form.addEventListener('submit', function(event) {
         var totalmortg = result + mortgdeposit;
         buyingpower.innerText="Your total buying power is: €"+numberWithCommas(totalmortg);
         event.preventDefault();
-
     }
 });
 
