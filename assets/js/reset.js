@@ -7,8 +7,3 @@ function resetValue() {
 $('.resetbutton').click(function() {
     $('.resultssection').css('display', 'none');
 });
-
-
-// $(document).ready(function(){
-//   $('[data-toggle="popover"]').popover();
-// });
