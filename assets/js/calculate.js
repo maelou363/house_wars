@@ -24,10 +24,6 @@ $('input.number').keyup(function(event) {
     });
   });
 
-function getFocus() {
-    document.getElementById('resultssection').scrollIntoView();
-  }
-
 form.addEventListener('submit', function(event) {
     /* checking that valid values have been entered */
     if (!num1.value || !num2.value) {
@@ -48,7 +44,17 @@ form.addEventListener('submit', function(event) {
     }
 });
 
+
+/* When calculate is clicked will send resultssection into view */
+let submit = document.querySelector('.submit');
+let hw = document.querySelector('.resultssection');
+
+submit.addEventListener('click', function () {
+    hw.scrollIntoView(true);
+});
+
 /* Will show results section upon calculation button clicked */
 $('.submit').click(function() {
     $('.resultssection').css('display', 'block');
+    
 });
