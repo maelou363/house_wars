@@ -37,7 +37,7 @@
                 <input name="num2" value="0" id="num2" type="tel" class= "form-control input num2 number" onfocus="this.value=''">
               </div>
                 <div class="submit">
-                  <button id="button" class="btn btn-primary btn-lg btn-block" onclick="getFocus()">Calculate</button>
+                  <button id="button" class="btn btn-primary btn-lg btn-block" onclick="setTimeout(getFocus,100);">Calculate</button>
                 </div>
                 <div class="form-group resetbutton">
                   <input type="button" class="resetbutton btn btn-default"  onclick="resetValue()" value="Reset">
@@ -53,7 +53,7 @@
             <h4 id="results"></h4>
             <h4 id="deposit"></h4>
             <h4 id="buyingpower"></h4>
-            <button class="btn btn-primary btn-lg btn-block">Share Results</button>
+            <button id="share" class="share btn btn-primary btn-lg btn-block">Share Results</button>
           </form>
         </div>
     </div>

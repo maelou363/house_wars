@@ -3,6 +3,20 @@ var debt = document.getElementById('num2');
 var result = document.getElementById('results');
 var form = document.getElementById('inputform');
 
+/* Will show results section upon calculation button clicked */
+$('.submit').click(function() {
+    $('.resultssection').toggle();
+});
+
+/* function to allow 1/10th second to work around bug that otherwisee it won't show results every time*/
+let hw = document.querySelector('.resultssection');
+
+function getFocus() {
+    hw.scrollIntoView({ 
+        behavior: 'smooth' 
+    });
+}
+
 /* function to add commas in between printed numbers from
 https://stackoverflow.com/questions/2901102/how-to-print-a-number-with-commas-as-thousands-separators-in-javascript */
 function numberWithCommas(x) {
@@ -44,17 +58,3 @@ form.addEventListener('submit', function(event) {
     }
 });
 
-
-/* When calculate is clicked will send resultssection into view */
-let submit = document.querySelector('.submit');
-let hw = document.querySelector('.resultssection');
-
-submit.addEventListener('click', function () {
-    hw.scrollIntoView(true);
-});
-
-/* Will show results section upon calculation button clicked */
-$('.submit').click(function() {
-    $('.resultssection').css('display', 'block');
-    
-});
