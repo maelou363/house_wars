@@ -63,9 +63,9 @@ _User:_
 
 # Design
 
-* I'm designing this with mobile first in mind. Which brings some things into play. So I when the user lands on the page they can access everything (no scrolling) to the income, expense, calculate and reset mobile in one spot. I want it to be visually clean and free from any impediences. A smooth transition to the calculate and view results. With that in mind I implemented a few things like commas in the input and results so users can visually see what they are entering better, automatically entering 'O' for total debt/major expenses and making input fields numbers so when on mobile there is no need to for that extra click to make that change to the number keyboard.
+* I'm designing this with mobile first in mind. Which brings some things into play. So I when the user lands on the page they can access everything (no scrolling) to the income, expense, calculate and reset mobile in one spot. I want to design it to be visually clean and free from any impediences. 
 * I want this to be a clean design. Visually appealing and the call to action obvious on what they need to do at each step.
-* 
+* The design to be a smooth transition to the calculate and view results. With that in mind I implemented a few things like commas in the input and results so users can visually see what they are entering better, automatically entering 'O' for total debt/major expenses and making input fields numbers so when on mobile there is no need to for that extra click to make that change to the number keyboard.
 * 
 
 ### 1. Font
@@ -145,7 +145,7 @@ Used multiple devices and feedback from family who went to the deployed site on 
 
 ## Found Bugs & Fixes:
 * When hitting the reset button it does not clear the results - only clears the inputs entered.
-* Adding commas to the input fields created a problem with our calculations. We ended up having to remove the type="number" from the input field to work with our Jquery but then was concerned from a UI standpoint that they would have to click another time to access the proper number keyboard. Our work around was type="tel"
+* Adding commas to the input fields created a problem with our calculations. We ended up having to remove the type="number" from the input field to work with our Jquery but then was concerned from a UI standpoint that they would have to click another time to access the proper number keyboard. Our work around was type="tel" that allowed the calculations to properly calculate but still worked with our function.
 *  When not entering values in input field you will be alerted to add values. When this happens it resets the results section which would show previous calculations or a blank result section. Fixed bug by making sure it hides the result section upon this alert.
 * 
 * 
@@ -179,7 +179,7 @@ Select the Repository from the Github Dashboard.
 ## Credits / Acknowledgements
 
 # Content / Media
-* All photos used on this website were created by either myself or my friend Katie Chase from The Foodie Movement.
+*
 
 # Acknowledgements
 Thank you to everyone who have helped with support, inspiration and guidance at different stages of the project. 
