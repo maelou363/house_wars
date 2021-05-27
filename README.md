@@ -127,8 +127,6 @@ Wireframes for this project were created using Affinity Design and Sketch for bo
 
 * I'd like to create a future feature where once established how much you can borrow to bring up properties within that price range. 
 * To create a feature that allows First Time Homebuyers to click so it calculates a 10% down deposit.
-* 
-* 
 
 
 # Testing
