@@ -147,7 +147,7 @@ Used multiple devices and feedback from family who went to the deployed site on 
 * When hitting the reset button it does not clear the results - only clears the inputs entered.
 * Adding commas to the input fields created a problem with our calculations. We ended up having to remove the type="number" from the input field to work with our Jquery but then was concerned from a UI standpoint that they would have to click another time to access the proper number keyboard. Our work around was type="tel" that allowed the calculations to properly calculate but still worked with our function.
 *  When not entering values in input field you will be alerted to add values. When this happens it resets the results section which would show previous calculations or a blank result section. Fixed bug by making sure it hides the result section upon this alert.
-* 
+* In Share Results form after clicking to close and reset to recalculate the UI 'message sent' does not reset
 * 
 
 [Back to Top](#table-of-contents)

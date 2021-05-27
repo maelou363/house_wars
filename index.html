@@ -34,6 +34,7 @@
         <!-- Mortgage Calculator Form / Input Section-->
         <div class="container">
           <form class="form" id="inputform">
+
             <section>
               <div class="form-group">
                 <label>Total Gross Income <a href="#" class="questionpopover" data-toggle="popover" data-placement="top" data-content="Combine all your annual income before taxes"><i class="fas fa-question"></i></a></label>
@@ -49,19 +50,22 @@
                 <div class="form-group resetbutton">
                   <input type="button" class="resetbutton btn btn-default"  onclick="resetValue()" value="Reset">
                 </div>
+            </section>
                 
           </form>
-            </section>
+
         </div>
-        <div></div>
+
         <!-- Results Section-->
         <div class="container" id="resultssection">
-          <form id="inputform" class="resultssection">
+
+          <form class="resultssection">
             <h4 id="results"></h4>
             <h4 id="deposit"></h4>
             <h4 id="buyingpower"></h4>
             <button id="share" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Share Results <i class="fas fa-share"></i></button>
           </form>
+
         </div>
 
         <!-- Pop-up Modal To Share Results-->
@@ -69,27 +73,28 @@
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Share Your Results</h5>
+                <h5>Share Your Results</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span>
                 </button>
               </div>
-        <section class="container">
+        <!-- -->
+        <section class="container" >
           <div class="bg-color-contact">
-            <div>
+            <div id="resultsform">
                 <form onsubmit="return sendMail(this);">
                     <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
                     <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
-                    <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Project Description" required></textarea>
                     <div class="form-row text-center">
-                            <button type="submit" class="btn btn-secondary">Send Results</button>
+                            <button id="results_send" type="submit" class="btn btn-secondary">Send Results</button>
                     </div>
+                </form>
               </div>
           </div>
-  <div class="modal-footer">
-    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-    <button type="button" class="resetbutton btn btn-secondary" data-dismiss="modal" onclick="resetValue()">Reset</button>
-  </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="resetbuttonmodal btn btn-secondary" data-dismiss="modal" onclick="resetValue()">Reset</button>
+          </div>
 </div>
 </div>
 </div>
