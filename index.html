@@ -74,27 +74,28 @@
                   <span aria-hidden="true">&times;</span>
                 </button>
               </div>
-<section class="container-fluid">
-        <div class="row bg-color-contact">
-            <div class="col">
-                <div class="center-form">
-                    <form onsubmit="return sendMail(this);">
-                        <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
-                        <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
-                        <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Project Description" required></textarea>
-                        <div class="form-row text-center">
-                            <div class="col">
-                                <button type="submit" class="btn btn-secondary">Send Request</button>
-                            </div>
-                        </div>
+        <section class="container">
+          <div class="bg-color-contact">
+            <div>
+                <form onsubmit="return sendMail(this);">
+                    <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
+                    <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
+                    <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Project Description" required></textarea>
+                    <div class="form-row text-center">
+                            <button type="submit" class="btn btn-secondary">Send Results</button>
+                    </div>
               </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="resetbutton btn btn-secondary" data-dismiss="modal" onclick="resetValue()">Reset</button>
-              </div>
-            </div>
           </div>
-        </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+    <button type="button" class="resetbutton btn btn-secondary" data-dismiss="modal" onclick="resetValue()">Reset</button>
+  </div>
+</div>
+</div>
+</div>
+
+</section>
+
     </div>
     
 
@@ -105,7 +106,7 @@
     <script src="assets/js/calculate.js"></script>
     <script src="assets/js/reset.js"></script>
     <script src="assets/js/popover.js"></script>
-    <script src="assets/js/sendEmail.js"></script>
+    <script src="assets/js/sendMail.js"></script>
     
     
 
