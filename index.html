@@ -10,6 +10,13 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"/>
     <link rel="shortcut icon" type="image/jpg" href="assets/images/favicon.ico"/>
     <link rel="stylesheet" href="assets/css/style.css">
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("user_oB2LJ5j4wXYQFkUtk6ahR");
+        })();
+    </script>
     <title>House Wars</title>
   </head>
   <body>
@@ -56,6 +63,7 @@
             <button id="share" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Share Results <i class="fas fa-share"></i></button>
           </form>
         </div>
+
         <!-- Pop-up Modal To Share Results-->
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog">
@@ -67,17 +75,19 @@
                 </button>
               </div>
               <div class="modal-body container">
-                <form class="form">
-                  <div class="form-group">ç
-                    <label>Enter Your Email</label>
-                    <input name="email" type="email" autofocus>
-                  </div>
-                  <div class="form-group sendresultsbutton">
-                    <div class="send">
-                      <button id="button" class="btn btn-primary btn-lg btn-block">Send Results <i class="far fa-envelope"></i></button>
-                    </div>
-                  </div>
-                </form>
+                  <form id="contact-form">
+                    <input type="hidden" name="contact_number">
+                    <label>Name</label>
+                    <input type="text" name="user_name">
+                    <label>Email</label>
+                    <input type="email" name="user_email">
+                    <textarea name="message">
+                      <h4 id="results"></h4>
+                      <h4 id="deposit"></h4>
+                      <h4 id="buyingpower"></h4>
+                    </textarea>
+                    <input type="submit" value="Send">
+                  </form>
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -96,6 +106,7 @@
     <script src="assets/js/calculate.js"></script>
     <script src="assets/js/reset.js"></script>
     <script src="assets/js/popover.js"></script>
+    <script src="assets/js/sendEmail.js"></script>
     
     
 
