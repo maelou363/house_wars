@@ -48,12 +48,15 @@ form.addEventListener('submit', function(event) {
         var y = parseFloat(num2.value.replace(/,/g, ''));
 
 /* results section from input */
+        /* Calculation for initial borrowing based on income and debt */
         var result = (x - y) * 3.5;
-        results.innerText="You can potentially borrow: €"+numberWithCommas(result);
+        results.innerText= "€"+numberWithCommas(result);
+        /* Calculation for how much would need to be put down with 20% */
         var mortgdeposit = result*.20;
-        deposit.innerText="Your 20% deposit needs to be: €"+numberWithCommas(mortgdeposit);
+        deposit.innerText="€"+numberWithCommas(mortgdeposit);
+        /* Calculation adding deposit and results together for total buying power */
         var totalmortg = result + mortgdeposit;
-        buyingpower.innerText="Your total buying power is: €"+numberWithCommas(totalmortg);
+        buyingpower.innerText="€"+numberWithCommas(totalmortg);
         event.preventDefault();
     }
 });
