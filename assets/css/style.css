@@ -103,6 +103,11 @@
     color: #000000;
 }
 
+.resultssection h4 {
+    color: var(--primary-color);
+    font-weight: 900;
+}
+
 /* ------------------------- FOOTER --------------------------- */
 
 footer {
