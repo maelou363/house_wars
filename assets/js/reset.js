@@ -1,8 +1,7 @@
 /* reset input form to enter in new numbers */
 function resetValue() {
     document.getElementById("inputform").reset();
-/* Potential reset to reset entire form */
-    // document.getElementById("results_send").reset();
+    document.getElementById('results_send').innerHTML = "Send Results";
  }
 
 /* resets results section and hides previous results when reset button is hit */ 
