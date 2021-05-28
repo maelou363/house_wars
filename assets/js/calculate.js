@@ -2,7 +2,6 @@ var income = document.getElementById('num1');
 var debt = document.getElementById('num2');
 var result = document.getElementById('results');
 var form = document.getElementById('inputform');
-var person_results = document.getElementById('results');
 
 /* Will show results section upon calculation button clicked */
 $('.submit').click(function() {
@@ -52,13 +51,16 @@ form.addEventListener('submit', function(event) {
         /* Calculation for initial borrowing based on income and debt */
         var result = (x - y) * 3.5;
         results.innerText= "€"+numberWithCommas(result);
+        /* placing results value into sending personalise results form */
         document.getElementById('person_results').value = numberWithCommas(result);
         /* Calculation for how much would need to be put down with 20% */
         var mortgdeposit = result*.20;
         deposit.innerText="€"+numberWithCommas(mortgdeposit);
+        document.getElementById('deposit_needed').value = numberWithCommas(mortgdeposit);
         /* Calculation adding deposit and results together for total buying power */
         var totalmortg = result + mortgdeposit;
         buyingpower.innerText="€"+numberWithCommas(totalmortg);
+        document.getElementById('buyer_total').value = numberWithCommas(totalmortg);
         event.preventDefault();
     }
 });
