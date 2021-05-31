@@ -5,7 +5,7 @@
 ## Code Institute: Milestone Project 2
 
 <p align="center">
-    <img src="" alt="website mockup on different devices">
+    <img src="assets/wireframes/House-wars-mockup.png" alt="website mockup on different devices">
 </p>
 
 ---
