@@ -1,5 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
 
 
@@ -17,7 +16,7 @@
   }
 
   h1, h2, h3, h4, h5, h6 {
-      font-family: "Roboto+Condensed", sans-serif;
+      font-family: "Poppins", sans-serif;
   }
 
   
@@ -55,6 +54,7 @@
     color: #ffff;
     font-weight: 400;
     font-size: 18px;
+    font-family: "Poppins", sans-serif;
 }
 
 .questionpopover {
@@ -104,9 +104,23 @@
 }
 
 .resultssection h4 {
-    color: var(--primary-color);
+    color: #000000;
+    font-size: 28px;
     font-weight: 900;
 }
+
+/* ------------------------- SHARE RESULTS MODAL SECTION --------------------------- */
+
+.modal-header {
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+
+.send-results-input {
+    margin-top: 15px;
+}
+
+
 
 /* ------------------------- FOOTER --------------------------- */
 
