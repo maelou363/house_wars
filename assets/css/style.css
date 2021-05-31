@@ -34,12 +34,17 @@
 
 .btn-primary {
     color: #ffff;
-    background-color: #0063CC !important;
-    border-color: #0063CC !important;
+    background-color: #0071EB !important;
+    border-color: #0071EB !important;
     font-weight: 400;
     font-size: 22px;
     font-family: 'Roboto+Condensed', sans-serif;
     letter-spacing: 2px;
+}
+
+.btn-primary:hover {
+    color: #000000 !important;
+    transition: 0.4s;
 }
 
 
@@ -121,6 +126,28 @@
 
 .resetbutton:hover {
     color: var(--secondary-color);
+}
+
+/* ------------------------- FAQ BUTTON --------------------------- */
+
+.faq {
+    background-color: var(--supplementary-dark);
+    padding: 15px 15px 15px 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+    text-decoration-line: none;
+    text-decoration: none;
+}
+
+.faq a {
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    margin: 0;
+    line-height: 1em;
+    text-decoration-line: none;
+    text-decoration: none;
+
 }
 
 /* ------------------------- RESULTS SECTION --------------------------- */

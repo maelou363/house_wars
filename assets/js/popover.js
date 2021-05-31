@@ -6,7 +6,7 @@ $(document).ready(function(){
 
 /* hover feature for FAQ button on homepage */
 function hoverFaq() {
-  document.getElementById('faqhover').style.cssText = "background-color:#0063CC; transition: 0.4s; color: #fffff;";
+  document.getElementById('faqhover').style.cssText = "background-color:#0071EB; transition: 0.4s;";
 }
 
 function hoverFaqOut() {
