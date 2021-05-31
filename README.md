@@ -92,7 +92,7 @@ Our color scheme was created with a goal of a color palette that would portray s
     <img src="assets/images/housing_logo.png" alt="logo of house wars calculator">
 </p>
 
-## 4. Wireframing & Proposed/Implemented Functionality per Page
+### 4. Wireframing & Proposed/Implemented Functionality per Page
 
 Wireframes for this project were created using Affinity Design to sketch my general ideas out and then Balsamiq to get a more solid vision. Each element was structurally planned out before building the project to be sure all elements were accounted for and worked together.
 
@@ -132,7 +132,6 @@ Our information architecture to demonstrate the flow and key aspects of function
 * Sketch - Used to create the wireframes.
 * [TinyPNG](tinypng.com) - Used to compress images used throughout the site without affecting image integrity/quality.
 * [W3C Schools](https://www.w3schools.com/) - Used several times whislt building the project and used code snippet for the contact.html form section
-* [CSSScript.com](https://www.cssscript.com/create-responsive-tabs-component-using-css-radio-input/) - Used for our dynamic tabs on index.html
 
 
 
@@ -209,4 +208,4 @@ Thank you to everyone who have helped with support, inspiration and guidance at 
 
 
 
-[Back to Top](#table-of-contents)# house_wars
+[Back to Top](#table-of-contents)
