@@ -75,13 +75,13 @@ _ New User:_
 * 
 
 ### 1. Font
-- Headings - <a href="https://fonts.google.com/specimen/Oswald?preview.text_type=custom">Oswald</a>
-- Body - <a href="https://fonts.google.com/specimen/Poppins?preview.text_type=custom">Poppins</a>
+- Headings - <a href="https://fonts.google.com/specimen/Poppins?preview.text_type=custom">Poppins</a>
+- Body - <a href="https://fonts.google.com/specimen/Roboto+Condensed?preview.text_type=custom&query=robot">Roboto Condensed</a>
 
 ### 2. Color Scheme
 
-Our color scheme was created to create a little bit of colour but muted colour scheme around the photos and portfolio work to really give the photos the opportunity to shine and showcase companies work.
-
+Our color scheme was created with a goal of a color palette that would portray sophisticated elegance. Using navy blue as our stand out color and our gold for accent.
+ 
 - ![#3A3A44](https://placehold.it/15/7FB8C7/000000?text=+) `#3A3A44` - Primary color
 - ![#C08E31](https://placehold.it/15/D5977D/000000?text=+) `#C08E31` - Secondary color
 - ![#D6D9E1](https://placehold.it/15/F7DED3/000000?text=+) `#D6D9E1` - Supplementary color
@@ -94,13 +94,24 @@ Our color scheme was created to create a little bit of colour but muted colour s
 
 ## 4. Wireframing & Proposed/Implemented Functionality per Page
 
-Wireframes for this project were created using Affinity Design and Sketch for both mobile and desktop. Each element was structurally planned out before building the project to be sure all elements were accounted for and worked together.
+Wireframes for this project were created using Affinity Design to sketch my general ideas out and then Balsamiq to get a more solid vision. Each element was structurally planned out before building the project to be sure all elements were accounted for and worked together.
 
-<summary>Wireframes</summary>
+#### Wireframes
 
 <p align="center">
-    <img src="assets/images/wireframes.jpg" alt="house wars wireframes">
+    <img src="assets/wireframes/wireframes.jpg" alt="house wars wireframes affinity design">
 </p>
+<p align="center">
+    <img src="assets/wireframes/landing-page.png" alt="house wars wireframes balsamiq">
+</p>
+
+### Structure
+
+Our information architecture to demonstrate the flow and key aspects of function throughout the site.
+<p align="center">
+    <img src="assets/wireframes/house-wars-structure.jpg" alt="information architecture for house wars">
+</p>
+
 
 [Back to Top](#table-of-contents)
 
@@ -128,6 +139,12 @@ Wireframes for this project were created using Affinity Design and Sketch for bo
 # Features
 
 [Back to Top](#table-of-contents)
+
+#### Design Features
+
+House wars was design with loads of UI in mnid. Every section of the application was design to create a smooth user experience.
+ * The header contains a simple logo at the top in the center of the page which also acts as the navigation when clicked will take you back to the homepage. There really is only one other page FAQ and I made the decision to omit a navigation bar in this design. And instead have a CTA to the FAQ straight below the calculator should a new user enter the application and have additional questions before using. This CTA conveniently is shown on all screen sizes when loading application which fits with our design goals of a one-stop-shop without scrolling.
+ * The footer also contain social media icons along with terms/conditions page and FAQ page as well to have another option for navigation of the site.
 
 #### Future Features:
 
