@@ -129,7 +129,7 @@ Our information architecture to demonstrate the flow and key aspects of function
 
 * [W3C Markup Validation Service](https://validator.w3.org/) - Used to check the validity and efficiency of the code base.
 * [Font Awesome](https://fontawesome.com/) - For iconography not custom to the site.
-* Sketch - Used to create the wireframes.
+* Balsamiq - Used to create the wireframes.
 * [TinyPNG](tinypng.com) - Used to compress images used throughout the site without affecting image integrity/quality.
 * [W3C Schools](https://www.w3schools.com/) - Used several times whislt building the project and used code snippet for the contact.html form section
 
