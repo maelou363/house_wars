@@ -58,7 +58,8 @@ This is my second of four Milestone Projects that are a part of the Full Stack W
 _User:_
 * As a user I want to be able to click once to see what my borrowing and buying power is.
 * As a user I'd like to be able to save the results so I don't have to continue to go back and remember what the results were.
-* As a user I would like to send the results to a family member.
+* As a user I would like to send the results to myself or a family member.
+
 
 
 # Design
