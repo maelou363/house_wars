@@ -15,7 +15,7 @@ function sendMail(contactForm) {
         },
         function(error) {
             console.log("FAILED", error);
-            alert ("Oops something happened. Try again later.")
+            alert ("Oops something happened. Try again later.");
         }   
     );
     return false;  // To block from loading a new page
