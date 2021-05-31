@@ -8,7 +8,7 @@ $('.submit').click(function() {
     $('.resultssection').toggle();
 });
 
-/* function to allow 1/10th second to work around bug that otherwisee it won't show results every time*/
+/* function to allow 1/10th second to work around bug that otherwisee it won't auto scroll to results every time*/
 let hw = document.querySelector('.resultssection');
 
 function getFocus() {
@@ -38,7 +38,10 @@ $('input.number').keyup(function(event) {
     });
   });
 
+/* Calculations to get personalised mortgage results */
+
 form.addEventListener('submit', function(event) {
+
     /* checking that valid values have been entered */
     if (!num1.value || !num2.value) {
         alert("Please enter both income and debt");
@@ -51,15 +54,22 @@ form.addEventListener('submit', function(event) {
         /* Calculation for initial borrowing based on income and debt */
         var result = (x - y) * 3.5;
         results.innerText= "€"+numberWithCommas(result);
+
         /* placing results value into sending personalise results form */
         document.getElementById('person_results').value = numberWithCommas(result);
+
         /* Calculation for how much would need to be put down with 20% */
         var mortgdeposit = result*.20;
         deposit.innerText="€"+numberWithCommas(mortgdeposit);
+
+        /* placing results value into sending personalise results form */
         document.getElementById('deposit_needed').value = numberWithCommas(mortgdeposit);
+
         /* Calculation adding deposit and results together for total buying power */
         var totalmortg = result + mortgdeposit;
         buyingpower.innerText="€"+numberWithCommas(totalmortg);
+
+        /* placing results value into sending personalise results form */
         document.getElementById('buyer_total').value = numberWithCommas(totalmortg);
         event.preventDefault();
     }
