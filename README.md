@@ -55,19 +55,19 @@ This is my second of four Milestone Projects that are a part of the Full Stack W
 
 ## User Stories:
 
-_Current User:_
+Current User:
 * As a current user I want to be able to click once to see what my borrowing and buying power is so I can save time and spend time with family.
 * As a current user I'd like to be able to save the results so I don't have to continue to go back and remember what the results were because it's hard to remember when so much is going on.
 * As a current user I would like to send the results to myself or a family member so that we can discuss and see what our options are together.
 
-_ New User:_
+New User:
 * As a new user I would like to not be overwhelmed with questions that I am not used too so I can easily get my buying power.
 * As a new user I'm not sure what counts as income so I would like to find out what does easily from one spot so that I can quickly get my result.
 * As a new user I want to be able to easily navigate and be clear what I'm doing when and where within the site.
 
 
 
-# Design
+## Design
 
 * I'm designing this with mobile first in mind. Which brings some things into play. When the user lands on the page they can access everything (no scrolling) to the income, expense, calculate and reset mobile in one spot. I want to design it to be visually clean and free from any impediences. 
 * I want this to be a clean design. Visually appealing and the call to action obvious on what they need to do at each step.
@@ -109,7 +109,7 @@ Wireframes for this project were created using Affinity Design to sketch my gene
 
 Our information architecture to demonstrate the flow and key aspects of function throughout the site.
 <p align="center">
-    <img src="assets/wireframes/house-wars-structure.jpg" alt="information architecture for house wars">
+    <img src="assets/wireframes/house-wars-structure.png" alt="information architecture for house wars">
 </p>
 
 
@@ -142,9 +142,11 @@ Our information architecture to demonstrate the flow and key aspects of function
 
 #### Design Features
 
-House wars was design with loads of UI in mnid. Every section of the application was design to create a smooth user experience.
+House wars was design with loads of UI in mind. Every section of the application was design to create a smooth user experience.
  * The header contains a simple logo at the top in the center of the page which also acts as the navigation when clicked will take you back to the homepage. There really is only one other page FAQ and I made the decision to omit a navigation bar in this design. And instead have a CTA to the FAQ straight below the calculator should a new user enter the application and have additional questions before using. This CTA conveniently is shown on all screen sizes when loading application which fits with our design goals of a one-stop-shop without scrolling.
  * The footer also contain social media icons along with terms/conditions page and FAQ page as well to have another option for navigation of the site.
+
+ ## Home
 
 #### Future Features:
 
