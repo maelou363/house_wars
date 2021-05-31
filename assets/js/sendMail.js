@@ -10,7 +10,7 @@ function sendMail(contactForm) {
     .then(
         function(response) {
             console.log("SUCCESS", response);
-            document.getElementById('results_send').innerHTML = "message sent";
+            document.getElementById('results-send').innerHTML = "message sent";
             return false;
         },
         function(error) {
