@@ -55,16 +55,21 @@ This is my second of four Milestone Projects that are a part of the Full Stack W
 
 ## User Stories:
 
-_User:_
-* As a user I want to be able to click once to see what my borrowing and buying power is.
-* As a user I'd like to be able to save the results so I don't have to continue to go back and remember what the results were.
-* As a user I would like to send the results to myself or a family member.
+_Current User:_
+* As a current user I want to be able to click once to see what my borrowing and buying power is so I can save time and spend time with family.
+* As a current user I'd like to be able to save the results so I don't have to continue to go back and remember what the results were because it's hard to remember when so much is going on.
+* As a current user I would like to send the results to myself or a family member so that we can discuss and see what our options are together.
+
+_ New User:_
+* As a new user I would like to not be overwhelmed with questions that I am not used too so I can easily get my buying power.
+* As a new user I'm not sure what counts as income so I would like to find out what does easily from one spot so that I can quickly get my result.
+* As a new user I want to be able to easily navigate and be clear what I'm doing when and where within the site.
 
 
 
 # Design
 
-* I'm designing this with mobile first in mind. Which brings some things into play. So I when the user lands on the page they can access everything (no scrolling) to the income, expense, calculate and reset mobile in one spot. I want to design it to be visually clean and free from any impediences. 
+* I'm designing this with mobile first in mind. Which brings some things into play. When the user lands on the page they can access everything (no scrolling) to the income, expense, calculate and reset mobile in one spot. I want to design it to be visually clean and free from any impediences. 
 * I want this to be a clean design. Visually appealing and the call to action obvious on what they need to do at each step.
 * The design to be a smooth transition to the calculate and view results. With that in mind I implemented a few things like commas in the input and results so users can visually see what they are entering better, automatically entering 'O' for total debt/major expenses and making input fields numbers so when on mobile there is no need to for that extra click to make that change to the number keyboard.
 * 
@@ -132,7 +137,7 @@ Wireframes for this project were created using Affinity Design and Sketch for bo
 
 # Testing
 
-* 
+* In testing and thinking of the final flow of application is when it occured to me that I'd like to give the user the option to access a navigation menu. This led me to intially begin building a navbar but what I decided was to create a FAQ below our calculator.
 * 
 * 
 

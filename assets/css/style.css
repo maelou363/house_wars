@@ -34,11 +34,22 @@
 
 /* ------------------------- HEADER TITLE --------------------------- */
 
-.header-title {
-    font-family: "Roboto+Condensed", sans-serif;
-    text-transform: uppercase;
-    text-align: center;
+.faq {
+    background-color: var(--secondary-color);
+    padding: 15px 15px 15px 15px;
+    margin-top: 15px;
+    border-radius: 5px;
 }
+
+.faq a {
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    margin: 0;
+    line-height: 1em;
+
+}
+
 
 /* ------------------------- INPUT FORM --------------------------- */
 
