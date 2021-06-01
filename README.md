@@ -75,7 +75,7 @@ New User:
 * I'm designing this with mobile first in mind. Which brings some things into play. When the user lands on the page they can access everything (no scrolling) to the income, expense, calculate and reset mobile in one spot. I want to design it to be visually clean and free from any impediences. 
 * I want this to be a clean design. Visually appealing and the call to action obvious on what they need to do at each step.
 * The design to be a smooth transition to the calculate and view results. With that in mind I implemented a few things like commas in the input and results so users can visually see what they are entering better, automatically entering 'O' for total debt/major expenses and making input fields numbers so when on mobile there is no need to for that extra click to make that change to the number keyboard.
-* 
+
 
 ### 1. Font
 - Headings - <a href="https://fonts.google.com/specimen/Poppins?preview.text_type=custom">Poppins</a>
@@ -182,6 +182,7 @@ House wars was design with loads of UI in mind. Every section of the application
       * For visual reasons we added commas into the numbers as the user is typing in the number. Allowing the user the ability to have clear feedback on what they have entered.
       * Autofocus on the first input field (Total Gross Income) which if using on desktop requires so clicking but from a UX perspective we didn't want the keyboard showing up immediately so they will have to click the input upon entering the site. We did create a feature where if they click 'reset' buttons it will autofocus back to the total gross income and allow them enter in a new number automatically.
       * Question Popovers - next to our input labels we have more information that can be displayed should user have questions about what should be counted.
+
   * **FAQ Section** - Occupying around 10% of the viewing on mobile over 375 allows users to see that they have an option
   * **Results Page** - Hidden initially until user clicks 'calculate' Which then will slow scroll automatically to the results page.
   * **Send Results**  - Modal popup to send results
@@ -267,6 +268,10 @@ House wars was design with loads of UI in mind. Every section of the application
 ## Testing Responsiveness
 Manually tested the live project using google developer tools to view the project on different screen sizes. 
 Used multiple devices and feedback from family who went to the deployed site on their devices.
+
+<figure class="video_container">
+  <iframe src="https://www.loom.com/embed/da072e32869c4c3d923085e01caec3ae" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
 
 * [Responsive Testing](https://www.loom.com/share/da072e32869c4c3d923085e01caec3ae)
 * [User Flow Testing](https://www.loom.com/share/58aa61082071421d9265469c8aae64df)
