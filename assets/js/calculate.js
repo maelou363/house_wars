@@ -52,14 +52,14 @@ form.addEventListener('submit', function(event) {
 
 /* results section from input */
         /* Calculation for initial borrowing based on income and debt */
-        var result = (x - y) * 3.5;
+        var result = Math.round((x - y) * 3.5);
         results.innerText= "€"+numberWithCommas(result);
 
         /* placing results value into sending personalise results form */
         document.getElementById('person_results').value = numberWithCommas(result);
 
         /* Calculation for how much would need to be put down with 20% */
-        var mortgdeposit = result*.20;
+        var mortgdeposit = Math.round(result*.20);
         deposit.innerText="€"+numberWithCommas(mortgdeposit);
 
         /* placing results value into sending personalise results form */

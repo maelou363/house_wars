@@ -56,6 +56,8 @@ This is my second of four Milestone Projects that are a part of the Full Stack W
 
 ## User Stories:
 
+**The ideal user of this application** would be a incoming house buyer either just entering the market or something who has been looking and their financial position has changed and would like to know what that means for drawing down on the mortgage.
+
 Current User:
 * As a current user I want to be able to click once to see what my borrowing and buying power is so I can save time and spend time with family.
 * As a current user I'd like to be able to save the results so I don't have to continue to go back and remember what the results were because it's hard to remember when so much is going on.
@@ -82,14 +84,9 @@ New User:
 ### 2. Colour Scheme
 
 Our colour scheme was created with a goal of a colour palette that would portray sophisticated elegance. Using navy blue as our stand out colour and our gold for accent. We chose colours that would all be AA compliant at mininum but ended up finding a scheme that made them all AAA compliant
- 
-- ![#3A3A44](https://placehold.it/15/3A3A44/000000?text=+) `#3A3A44` - Primary colour
-- ![#DDBC69](https://placehold.it/15/DDBC69/000000?text=+) `#DDBC69` - Secondary colour
-- ![#D6D9E1](https://placehold.it/15/D6D9E1/000000?text=+) `#D6D9E1` - Supplementary colour
-- ![#C2DEFF](https://placehold.it/15/C2DEFF/000000?text=+) `#C2DEFF` - Supplementary colour 2
 
 <details>
-<summary> Colour Scheme AAA Compliant Verification </summary>
+<summary> ** Colour Scheme AAA Compliant Verification ** </summary>
 <p align="center">
     <img src="assets/readme/3a3a44.png" alt="Compliant AAA Verification for 3A3A44">
 </p>
@@ -103,6 +100,13 @@ Our colour scheme was created with a goal of a colour palette that would portray
     <img src="assets/readme/C2deff.png" alt="Compliant AAA Verification for C2DEFF">
 </p>
 </details>
+ 
+- ![#3A3A44](https://placehold.it/15/3A3A44/000000?text=+) `#3A3A44` - Primary colour
+- ![#DDBC69](https://placehold.it/15/DDBC69/000000?text=+) `#DDBC69` - Secondary colour
+- ![#D6D9E1](https://placehold.it/15/D6D9E1/000000?text=+) `#D6D9E1` - Supplementary colour
+- ![#C2DEFF](https://placehold.it/15/C2DEFF/000000?text=+) `#C2DEFF` - Supplementary colour 2
+
+
 
 
 ### 3. Logo
@@ -191,8 +195,7 @@ House wars was design with loads of UI in mind. Every section of the application
 # Testing
 
 * In testing and thinking of the final flow of application is when it occured to me that I'd like to give the user the option to access a navigation menu. This led me to intially begin building a navbar but what I decided was to create a FAQ below our calculator that takes up just 10% of the 
-* FAQ button was not entirely clickable. Only if the area directly around the text. I added an onclick in the div surrounding the button to allow that entire area to be clickable.
-* 
+
 
 
 ## Testing Responsiveness
@@ -207,6 +210,8 @@ Used multiple devices and feedback from family who went to the deployed site on 
 * In Share Results form after clicking to close and reset to recalculate the UI 'message sent' does not reset. Fixed this by adding a innerText change within the resetValue function.
 * EmailJS email template stopped sending results and just sending a blank email. We console logged values to confirm they were populating and they were. We confirmed on EmailJS EmailHistory that values were getting delivered. Ended up being that simply changing the color and font of the email template is what causes this bug. The fix was to make the email template plain.... unfortunately... 
 * 'submit' Event Listener is firing on the FAQ button that is not connected - fix was to remove the javascript import off of faq.html page.
+* FAQ button was not entirely clickable. Only if the area directly around the text. I added an onclick in the div surrounding the button to allow that entire area to be clickable.
+* 20% deposit results were going way to far in decimal places for unique numbers. Added a Math.round to results to fix problem.
 
 [Back to Top](#table-of-contents)
 
