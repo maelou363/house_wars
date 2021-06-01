@@ -41,7 +41,7 @@ $('input.number').keyup(function(event) {
 /* Calculations to get personalised mortgage results */
 
 form.addEventListener('submit', function(event) {
-event.stopPropagation();
+    event.preventDefault();
     /* checking that valid values have been entered */
     if (!num1.value || !num2.value) {
         alert("Please enter both income and debt");
@@ -71,7 +71,7 @@ event.stopPropagation();
 
         /* placing results value into sending personalise results form */
         document.getElementById('buyer_total').value = numberWithCommas(totalmortg);
-        event.preventDefault();
+
     }
 });
 

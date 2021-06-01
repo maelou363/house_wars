@@ -119,21 +119,23 @@ Our information architecture to demonstrate the flow and key aspects of function
 
 ## Languages, Frameworks, Editors & Version Control:
 
-* HTML/CSS/Javascript ~ core languages used to build this site.
-* Bootstrap Framework ~ Pure CSS Component Frontend framework for layout and overall fronend architecture.
-* JQuery
-* VSCode/Gitpod ~ preferred used editors/IDEs to develop the project.
-* Git ~ installed on local machines or default built into Gitpod.
-* Github ~ used to host the repository and version control the site, aswell as used for deployment of the project.
+* HTML5/CSS3/Javascript - core languages used to build this site.
+* Bootstrap Framework - Pure CSS Component Frontend framework for layout and overall fronend architecture.
+* Google Fonts - used to import the fonts "Poppins" and "Roboto+Condensed" into the style.css file.
+* JQuery - Open source javascript library design to simplify HTML DOM tree manipulation and event handling.
+* VSCode/Gitpod - preferred used editors/IDEs to develop the project.
+* Git - installed on local machines or default built into Gitpod.
+* Github - used to host the repository and version control the site, aswell as used for deployment of the project.
 
 ## Tools Used:
 
 * [W3C Markup Validation Service](https://validator.w3.org/) - Used to check the validity and efficiency of the HTML and CSS code base.
 * [JSHint](https://jshint.com/) - Used to check validity of javascript code
-* [Font Awesome](https://fontawesome.com/) - For iconography not custom to the site.
-* Balsamiq - Used to create the wireframes.
+* [Font Awesome](https://fontawesome.com/) - For iconography added to the site.
+* [Balsamiq](https://balsamiq.com/) - Used to create the wireframes.
 * [TinyPNG](tinypng.com) - Used to compress images used throughout the site without affecting image integrity/quality.
 * [W3C Schools](https://www.w3schools.com/) - Used several times whislt building the project and used code snippet for the contact.html form section
+* [Am I Responsive](http://ami.responsivedesign.is/)
 
 
 
@@ -148,6 +150,16 @@ House wars was design with loads of UI in mind. Every section of the application
  * The footer also contain social media icons along with terms/conditions page and FAQ page as well to have another option for navigation of the site.
 
  ## Home
+  The Home Page is a clean UI with one column wide on mobile, tablet and computer devices. This application was designed with mobile first so it works on desktop still but from a design standpoint it's created for mobile.
+  * Calculator - Occupying almost 90% of the viewing on a mobile. This layout was choosen as to allow the user to simply add inputs and calculate. There are several UI features involved in this design.
+    * Automatically putting Total Debt input at '0' to allow user who has no debt to not have to enter in. But if clicked, automatically does remove the 'O' and user can enter in their data.
+    * Reset Button that allows user to remove prior inputs and when reset is clicked will autofocus back into 'Total Gross Income' input.
+      # Calculator Feedback
+      * For visual reasons we added commas into the numbers as the user is typing in the number. Allowing the user the ability to have clear feedback on what they have entered.
+      * Autofocus on the first input field (Total Gross Income) which if using on desktop requires so clicking but from a UX perspective we didn't want the keyboard showing up immediately so they will have to click the input upon entering the site. We did create a feature where if they click 'reset' buttons it will autofocus back to the total gross income and allow them enter in a new number automatically.
+      * Question Popovers - next to our input labels we have more information that can be displayed should user have questions about what should be counted.
+  * FAQ Section - Occupying around 10% of the viewing on mobile over 375 allows users to see that they have an option
+  * Results Page - Hidden initially until user clicks 'calculate' Which then will slow scroll automatically to the results page. 
 
 #### Future Features:
 
