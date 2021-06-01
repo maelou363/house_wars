@@ -79,13 +79,31 @@ New User:
 - Headings - <a href="https://fonts.google.com/specimen/Poppins?preview.text_type=custom">Poppins</a>
 - Body - <a href="https://fonts.google.com/specimen/Roboto+Condensed?preview.text_type=custom&query=robot">Roboto Condensed</a>
 
-### 2. Color Scheme
+### 2. Colour Scheme
 
-Our color scheme was created with a goal of a color palette that would portray sophisticated elegance. Using navy blue as our stand out color and our gold for accent.
+Our colour scheme was created with a goal of a colour palette that would portray sophisticated elegance. Using navy blue as our stand out colour and our gold for accent. We chose colours that would all be AA compliant at mininum but ended up finding a scheme that made them all AAA compliant
  
-- ![#3A3A44](https://placehold.it/15/7FB8C7/000000?text=+) `#3A3A44` - Primary color
-- ![#C08E31](https://placehold.it/15/D5977D/000000?text=+) `#C08E31` - Secondary color
-- ![#D6D9E1](https://placehold.it/15/F7DED3/000000?text=+) `#D6D9E1` - Supplementary color
+- ![#3A3A44](https://placehold.it/15/3A3A44/000000?text=+) `#3A3A44` - Primary colour
+- ![#DDBC69](https://placehold.it/15/DDBC69/000000?text=+) `#DDBC69` - Secondary colour
+- ![#D6D9E1](https://placehold.it/15/D6D9E1/000000?text=+) `#D6D9E1` - Supplementary colour
+- ![#C2DEFF](https://placehold.it/15/C2DEFF/000000?text=+) `#C2DEFF` - Supplementary colour 2
+
+<details>
+<summary> Colour Scheme AAA Compliant Verification </summary>
+<p align="center">
+    <img src="assets/readme/3a3a44.png" alt="Compliant AAA Verification for 3A3A44">
+</p>
+<p align="center">
+    <img src="assets/readme/ddbc69.png" alt="Compliant AAA Verification for DDBC69">
+</p
+<p align="center">
+    <img src="assets/readme/D6d9e1.png" alt="Compliant AAA Verification for D6D9E1">
+</p>
+<p align="center">
+    <img src="assets/readme/C2deff.png" alt="Compliant AAA Verification for C2DEFF">
+</p>
+</details>
+
 
 ### 3. Logo
 
@@ -136,7 +154,8 @@ Our information architecture to demonstrate the flow and key aspects of function
 * [Balsamiq](https://balsamiq.com/) - Used to create the wireframes.
 * [TinyPNG](tinypng.com) - Used to compress images used throughout the site without affecting image integrity/quality.
 * [W3C Schools](https://www.w3schools.com/) - Used several times whislt building the project and used code snippet for the contact.html form section
-* [Am I Responsive](http://ami.responsivedesign.is/)
+* [Am I Responsive](http://ami.responsivedesign.is/) - Tool to double check the responsiveness of application
+* [WebAIM](https://webaim.org/resources/contrastchecker/) - Contrast checker to make sure that colours are AA compliant at least. We made sure that our colours were all AAA compliant.
 
 
 
@@ -172,7 +191,7 @@ House wars was design with loads of UI in mind. Every section of the application
 # Testing
 
 * In testing and thinking of the final flow of application is when it occured to me that I'd like to give the user the option to access a navigation menu. This led me to intially begin building a navbar but what I decided was to create a FAQ below our calculator that takes up just 10% of the 
-* 
+* FAQ button was not entirely clickable. Only if the area directly around the text. I added an onclick in the div surrounding the button to allow that entire area to be clickable.
 * 
 
 
