@@ -270,11 +270,18 @@ Manually tested the live project using google developer tools to view the projec
 Used multiple devices and feedback from family who went to the deployed site on their devices.
 
 <figure class="video_container">
-  <iframe src="https://drive.google.com/file/d/16fmQQvWIXnMRxFxCBTHMTAMShD1rJ3jx/view?usp=sharing" frameborder="0" allowfullscreen="true"> </iframe>
+  <video controls="true" allowfullscreen="true" poster="path/to/poster_image.png">
+    <source src="assets/readme/House-Wars-Responsive-Testing.mp4" type="video/mp4">
+  </video>
 </figure>
 
-* [Responsive Testing](https://www.loom.com/share/da072e32869c4c3d923085e01caec3ae)
-* [User Flow Testing](https://www.loom.com/share/58aa61082071421d9265469c8aae64df)
+## User Flow Testing
+
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true" poster="path/to/poster_image.png">
+    <source src="assets/readme/House-Wars-Testing.mp4" type="video/mp4">
+  </video>
+</figure>
 
 
 ## Found Bugs & Fixes:
