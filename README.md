@@ -35,9 +35,9 @@
 
 The goal of House Wars is to create a calculator that won't ask a bunch of unnecessary questions just to get an idea of how much you can borrow and what the required deposit would be. As I begin my house hunting the oppressive reality of the Dublin housing market has made me want to create this. Just one less thing to enter to check what our buying power is. There are plenty of calculators out there but they ask so many questions like your date of birth, how many children you have etc. etc. For house searches just wanting to get a rough idea on how much they could potentially borrow with their income and the deposit House Wars is created with this need in mind.
 
-House wars is created with mobile first in mind. You'll be able to quickly enter in your income and get a result on how much you can borrow along with the potentially deposit you'll have to come up with which gives your total buying power.
+House wars is created with mobile first in mind. You'll be able to quickly enter in your income and get a result on how much you can borrow along with the potential deposit you'll have to come up with which gives you your total buying power.
 
-It is a clean design that is streamlined and to the point. A one page calculator where you can enter your basic details to get that rough mortgage buying power saving the user time and giving them the information quickly.
+It is a clean design that is streamlined and to the point. A one page calculator where you can enter your basic details to get that rough mortgage buying power saving the user time and giving them the information quickly by creating a the best kind of user experience - the experience where it's so streamlined and free of any impediences. See more about design as we go into details on why we designed it the way we did.
 
 This is my second of four Milestone Projects that are a part of the Full Stack Web Development Program at The Code Insitute. That requirements were to make a responsive application using HTML, CSS and Javascript.
 
@@ -49,6 +49,7 @@ This is my second of four Milestone Projects that are a part of the Full Stack W
 
 * To create a seemless experience for the user. Created with mobile first in mind as majority of users will be 'on-the-go' when they are simply curious if they could afford a certain house or perhaps if their financial position changes. 
 * Allow user to quickly be able to see results with just one click.
+* From start to finish with as few clicks as possible to get user to the end of their journey.
 * To allow user to save results so they don't have to continually go back to remember what the results were.
 * To create a design that is responsive on all devices and screen sizes but with mobile first thinking.
 
@@ -151,25 +152,26 @@ House wars was design with loads of UI in mind. Every section of the application
 
  ## Home
   The Home Page is a clean UI with one column wide on mobile, tablet and computer devices. This application was designed with mobile first so it works on desktop still but from a design standpoint it's created for mobile.
-  * Calculator - Occupying almost 90% of the viewing on a mobile. This layout was choosen as to allow the user to simply add inputs and calculate. There are several UI features involved in this design.
+  * **Calculator** - Occupying almost 90% of the viewing on a mobile. This layout was choosen as to allow the user to simply add inputs and calculate. There are several UI features involved in this design.
     * Automatically putting Total Debt input at '0' to allow user who has no debt to not have to enter in. But if clicked, automatically does remove the 'O' and user can enter in their data.
     * Reset Button that allows user to remove prior inputs and when reset is clicked will autofocus back into 'Total Gross Income' input.
-      # Calculator Feedback
+      #### Calculator Feedback
       * For visual reasons we added commas into the numbers as the user is typing in the number. Allowing the user the ability to have clear feedback on what they have entered.
       * Autofocus on the first input field (Total Gross Income) which if using on desktop requires so clicking but from a UX perspective we didn't want the keyboard showing up immediately so they will have to click the input upon entering the site. We did create a feature where if they click 'reset' buttons it will autofocus back to the total gross income and allow them enter in a new number automatically.
       * Question Popovers - next to our input labels we have more information that can be displayed should user have questions about what should be counted.
-  * FAQ Section - Occupying around 10% of the viewing on mobile over 375 allows users to see that they have an option
-  * Results Page - Hidden initially until user clicks 'calculate' Which then will slow scroll automatically to the results page. 
+  * **FAQ Section** - Occupying around 10% of the viewing on mobile over 375 allows users to see that they have an option
+  * **Results Page** - Hidden initially until user clicks 'calculate' Which then will slow scroll automatically to the results page.
+  * **Send Results**  - Modal popup to send results
 
 #### Future Features:
 
-* I'd like to create a future feature where once established how much you can borrow to bring up properties within that price range. 
+* Create a future feature where once established how much you can borrow to bring up properties within that price range. 
 * To create a feature that allows First Time Homebuyers to click so it calculates a 10% down deposit.
 
 
 # Testing
 
-* In testing and thinking of the final flow of application is when it occured to me that I'd like to give the user the option to access a navigation menu. This led me to intially begin building a navbar but what I decided was to create a FAQ below our calculator.
+* In testing and thinking of the final flow of application is when it occured to me that I'd like to give the user the option to access a navigation menu. This led me to intially begin building a navbar but what I decided was to create a FAQ below our calculator that takes up just 10% of the 
 * 
 * 
 
@@ -185,7 +187,7 @@ Used multiple devices and feedback from family who went to the deployed site on 
 *  When not entering values in input field you will be alerted to add values. When this happens it resets the results section which would show previous calculations or a blank result section. Fixed bug by making sure it hides the result section upon this alert.
 * In Share Results form after clicking to close and reset to recalculate the UI 'message sent' does not reset. Fixed this by adding a innerText change within the resetValue function.
 * EmailJS email template stopped sending results and just sending a blank email. We console logged values to confirm they were populating and they were. We confirmed on EmailJS EmailHistory that values were getting delivered. Ended up being that simply changing the color and font of the email template is what causes this bug. The fix was to make the email template plain.... unfortunately... 
-* 'submit' Event Listener is firing on a button that is not connected.
+* 'submit' Event Listener is firing on the FAQ button that is not connected - fix was to remove the javascript import off of faq.html page.
 
 [Back to Top](#table-of-contents)
 
