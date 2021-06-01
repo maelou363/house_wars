@@ -270,7 +270,7 @@ Manually tested the live project using google developer tools to view the projec
 Used multiple devices and feedback from family who went to the deployed site on their devices.
 
 <figure class="video_container">
-  <video controls="true" allowfullscreen="true" poster="path/to/poster_image.png">
+  <video controls="true" allowfullscreen="true" poster="assets/readme/testing-screenshot-video.png">
     <source src="assets/readme/House-Wars-Responsive-Testing.mp4" type="video/mp4">
   </video>
 </figure>
@@ -278,7 +278,7 @@ Used multiple devices and feedback from family who went to the deployed site on 
 ## User Flow Testing
 
 <figure class="video_container">
-  <video controls="true" allowfullscreen="true" poster="path/to/poster_image.png">
+  <video controls="true" allowfullscreen="true" poster="assets/readme/responsive-testing-screenshot.png">
     <source src="assets/readme/House-Wars-Testing.mp4" type="video/mp4">
   </video>
 </figure>
