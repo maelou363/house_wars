@@ -270,7 +270,7 @@ Manually tested the live project using google developer tools to view the projec
 Used multiple devices and feedback from family who went to the deployed site on their devices.
 
 <figure class="video_container">
-  <iframe src="https://www.loom.com/embed/da072e32869c4c3d923085e01caec3ae" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe src="https://drive.google.com/file/d/16fmQQvWIXnMRxFxCBTHMTAMShD1rJ3jx/view?usp=sharing" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
 * [Responsive Testing](https://www.loom.com/share/da072e32869c4c3d923085e01caec3ae)
