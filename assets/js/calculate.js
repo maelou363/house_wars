@@ -59,7 +59,7 @@ form.addEventListener('submit', function(event) {
         document.getElementById('person_results').value = numberWithCommas(result);
 
         /* Calculation for how much would need to be put down with 20% */
-        var mortgdeposit = Math.round(result*.20);
+        var mortgdeposit = Math.round(result * 0.20);
         deposit.innerText="€"+numberWithCommas(mortgdeposit);
 
         /* placing results value into sending personalise results form */

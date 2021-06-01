@@ -194,13 +194,82 @@ House wars was design with loads of UI in mind. Every section of the application
 
 # Testing
 
-* In testing and thinking of the final flow of application is when it occured to me that I'd like to give the user the option to access a navigation menu. This led me to intially begin building a navbar but what I decided was to create a FAQ below our calculator that takes up just 10% of the 
+* In testing and thinking of the final flow of application is when it occured to me that I'd like to give the user the option to access a navigation menu. This led me to intially begin building a navbar but what I decided was to create a FAQ below our calculator that takes up just 10% of the space below. I believe this is a good use of space and since the 
+
+## Code Validation
+#### The W3C Markup Validator was used to validate the HTML code.
+
+**Results**
+* Index.html
+  * There were no errors but a few warnings about a suggestion of headings in our sections. From a design point I do not believe this will add benefit to the user and therefore disregarded.
+<p align="center">
+    <img src="assets/readme/index-w3-validate.png" alt="index.html validator">
+</p>
+
+* Faq.html
+<p align="center">
+    <img src="assets/readme/faq-w3-validate.png" alt="faq.html validator">
+</p>
+
+* terms-conditions.html
+<p align="center">
+    <img src="assets/readme/terms-w3-validate.png" alt="terms-conditions.html validator">
+</p>
+
+* 404.html
+<p align="center">
+    <img src="assets/readme/404-w3-validate.png" alt="terms-conditions.html validator">
+</p>
+
+#### The W3C CSS Markup Validator was used to validate the CSS code.
+
+**Results**
+<p align="center">
+    <img src="assets/readme/css-w3c-validate.png" alt="style.css validator">
+</p>
+
+#### JSHint was used to validate the Javascript and JQuery code used.
+
+**Results**
+* Calculate.js
+  * All errors pertained to variables either declared in other external script or index.html and JQuery variables
+<p align="center">
+    <img src="assets/readme/calculate-jshint-validate.png" alt="calculate.js validator">
+</p>
+
+* Reset.js
+  * All errors pertained to variables either declared in other external script files and JQuery variables
+<p align="center">
+    <img src="assets/readme/reset-jshint-validate.png" alt="reset.js validator">
+</p>
+
+* Popover.js
+  * All errors pertained to variables either declared in other external script files and JQuery variables
+<p align="center">
+    <img src="assets/readme/popover-jshint-validate.png" alt="popover.js validator">
+</p>
+
+* sendMail.js
+  * All errors pertained to variables either declared in other external script files and JQuery variables
+<p align="center">
+    <img src="assets/readme/sendmail-jshint-validate.png" alt="popover.js validator">
+</p>
+
+#### Lighthouse Audit
+
+**Results**
+<p align="center">
+    <img src="assets/readme/lighthouse-testing.png" alt="lighthouse validator">
+</p>
 
 
 
 ## Testing Responsiveness
 Manually tested the live project using google developer tools to view the project on different screen sizes. 
 Used multiple devices and feedback from family who went to the deployed site on their devices.
+
+* [Responsive Testing](https://www.loom.com/share/da072e32869c4c3d923085e01caec3ae)
+* [User Flow Testing](https://www.loom.com/share/58aa61082071421d9265469c8aae64df)
 
 
 ## Found Bugs & Fixes:
