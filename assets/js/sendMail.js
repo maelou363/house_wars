@@ -11,7 +11,6 @@ function sendMail(contactForm) {
         function(response) {
             console.log("SUCCESS", response);
             document.getElementById('results-send').innerHTML = "message sent";
-            return false;
         },
         function(error) {
             console.log("FAILED", error);

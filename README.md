@@ -119,15 +119,17 @@ Our information architecture to demonstrate the flow and key aspects of function
 
 ## Languages, Frameworks, Editors & Version Control:
 
-* HTML/CSS ~ core languages used to build this site.
+* HTML/CSS/Javascript ~ core languages used to build this site.
 * Bootstrap Framework ~ Pure CSS Component Frontend framework for layout and overall fronend architecture.
+* JQuery
 * VSCode/Gitpod ~ preferred used editors/IDEs to develop the project.
 * Git ~ installed on local machines or default built into Gitpod.
 * Github ~ used to host the repository and version control the site, aswell as used for deployment of the project.
 
 ## Tools Used:
 
-* [W3C Markup Validation Service](https://validator.w3.org/) - Used to check the validity and efficiency of the code base.
+* [W3C Markup Validation Service](https://validator.w3.org/) - Used to check the validity and efficiency of the HTML and CSS code base.
+* [JSHint](https://jshint.com/) - Used to check validity of javascript code
 * [Font Awesome](https://fontawesome.com/) - For iconography not custom to the site.
 * Balsamiq - Used to create the wireframes.
 * [TinyPNG](tinypng.com) - Used to compress images used throughout the site without affecting image integrity/quality.
@@ -169,8 +171,9 @@ Used multiple devices and feedback from family who went to the deployed site on 
 * When hitting the reset button it does not clear the results - only clears the inputs entered.
 * Adding commas to the input fields created a problem with our calculations. We ended up having to remove the type="number" from the input field to work with our Jquery but then was concerned from a UI standpoint that they would have to click another time to access the proper number keyboard. Our work around was type="tel" that allowed the calculations to properly calculate but still worked with our function.
 *  When not entering values in input field you will be alerted to add values. When this happens it resets the results section which would show previous calculations or a blank result section. Fixed bug by making sure it hides the result section upon this alert.
-* In Share Results form after clicking to close and reset to recalculate the UI 'message sent' does not reset
-* 
+* In Share Results form after clicking to close and reset to recalculate the UI 'message sent' does not reset. Fixed this by adding a innerText change within the resetValue function.
+* EmailJS email template stopped sending results and just sending a blank email. We console logged values to confirm they were populating and they were. We confirmed on EmailJS EmailHistory that values were getting delivered. Ended up being that simply changing the color and font of the email template is what causes this bug. The fix was to make the email template plain.... unfortunately... 
+* 'submit' Event Listener is firing on a button that is not connected.
 
 [Back to Top](#table-of-contents)
 
