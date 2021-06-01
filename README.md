@@ -269,19 +269,15 @@ House wars was design with loads of UI in mind. Every section of the application
 Manually tested the live project using google developer tools to view the project on different screen sizes. 
 Used multiple devices and feedback from family who went to the deployed site on their devices.
 
-<figure class="video_container">
-  <video controls="true" allowfullscreen="true" poster="assets/readme/testing-screenshot-video.png">
-    <source src="assets/readme/House-Wars-Responsive-Testing.mp4" type="video/mp4">
-  </video>
-</figure>
+<video width="320" height="240" controls>
+  <source src="assets/readme/House-Wars-Responsive-Testing.mp4" type="video/mp4">
+</video>
 
 ## User Flow Testing
 
-<figure class="video_container">
-  <video controls="true" allowfullscreen="true" poster="assets/readme/responsive-testing-screenshot.png">
-    <source src="assets/readme/House-Wars-Testing.mp4" type="video/mp4">
-  </video>
-</figure>
+<video width="320" height="240" controls>
+  <source src="assets/readme/House-Wars-Testing.mp4" type="video/mp4">
+</video>
 
 
 ## Found Bugs & Fixes:
