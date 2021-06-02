@@ -271,13 +271,14 @@ Used multiple devices and feedback from family who went to the deployed site on 
 
 - Responsive Testing
 
-    ![Responsive screen sizing in action](assets/readme/House-Wars-Responsive-Testing.mp4)
+    [![Responsive Testing](assets/readme/responsive-testing-screenshot.png)](https://youtu.be/mmpEp0X1ROw)
+
 
 ## User Flow Testing
 
 - User Flow Testing
 
-    ![Responsive screen sizing in action](assets/readme/House-Wars-Testing.mp4)
+    [![User Flow Testing](assets/readme/testing-screenshot-video.png)](https://youtu.be/jbElwxrYUfw)
 
 
 ## Found Bugs & Fixes:
