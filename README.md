@@ -183,9 +183,12 @@ House wars was design with loads of UI in mind. Every section of the application
       * Autofocus on the first input field (Total Gross Income) which if using on desktop requires so clicking but from a UX perspective we didn't want the keyboard showing up immediately so they will have to click the input upon entering the site. We did create a feature where if they click 'reset' buttons it will autofocus back to the total gross income and allow them enter in a new number automatically.
       * Question Popovers - next to our input labels we have more information that can be displayed should user have questions about what should be counted.
 
-  * **FAQ Section** - Occupying around 10% of the viewing on mobile over 375 allows users to see that they have an option
-  * **Results Page** - Hidden initially until user clicks 'calculate' Which then will slow scroll automatically to the results page.
-  * **Send Results**  - Modal popup to send results
+  * **FAQ Section** - Occupying around 10% of the viewing on mobile over 375 allows users to see that they have an option to research and answer further questions should they have them. 
+  * **Results Page** - Hidden initially until user clicks 'calculate' Which then will slow scroll automatically to the results page. There is three results populated to give them an idea what they can draw down, deposit needed and total buying potential. Below that is a CTA to share the results.
+  * **Send Results**  - Modal popup to send results to whoever they choose to send the results too. There is feedback on the send message button letting user know the message has in fact been sent. They can either close the modal or reset. Reset will bringing back to the calculator section and reset the message sent feedback. We felt it was good UX to keep the name and email populated so when they recalculate all they have to do is hit the 'Send Message' button.
+
+  ## FAQ
+    The FAQ page is a clean UI with collapsing single column wide across all devices. This was design to allow the page to be clean and the ability to allow the user to be able to see what the questions are and click to view the answers. My thought to this design way to unclutter the space and allow the user to be able to view what they want when they want. 
 
 #### Future Features:
 
