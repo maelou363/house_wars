@@ -317,10 +317,6 @@ Select the Repository from the Github Dashboard.
 * This will create a clone of the project for you.
 
 
-## Credits / Acknowledgements
-
-# Content / Media
-*
 
 # Acknowledgements
 Thank you to everyone who have helped with support, inspiration and guidance at different stages of the project. 
