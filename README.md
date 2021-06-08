@@ -283,6 +283,23 @@ Used multiple devices and feedback from family who went to the deployed site on 
 
     [![User Flow Testing](assets/readme/testing-screenshot-video.png)](https://youtu.be/jbElwxrYUfw)
 
+### Testing Features
+## Home
+  * Responsive Testing: Everything is responsive to the size of the screen and fits. 
+  * Pop-up features
+  The Home Page is a clean UI with one column wide on mobile, tablet and computer devices. This application was designed with mobile first so it works on desktop still but from a design standpoint it's created for mobile.
+  * **Calculator** - Occupying almost 90% of the viewing on a mobile. This layout was choosen as to allow the user to simply add inputs and calculate. There are several UI features involved in this design.
+    * Automatically putting Total Debt input at '0' to allow user who has no debt to not have to enter in. But if clicked, automatically does remove the 'O' and user can enter in their data.
+    * Reset Button that allows user to remove prior inputs and when reset is clicked will autofocus back into 'Total Gross Income' input.
+      #### Calculator Feedback
+      * For visual reasons we added commas into the numbers as the user is typing in the number. Allowing the user the ability to have clear feedback on what they have entered.
+      * Autofocus on the first input field (Total Gross Income) which if using on desktop requires so clicking but from a UX perspective we didn't want the keyboard showing up immediately so they will have to click the input upon entering the site. We did create a feature where if they click 'reset' buttons it will autofocus back to the total gross income and allow them enter in a new number automatically.
+      * Question Popovers - next to our input labels we have more information that can be displayed should user have questions about what should be counted.
+
+  * **FAQ Section** - Occupying around 10% of the viewing on mobile over 375 allows users to see that they have an option to research and answer further questions should they have them. 
+  * **Results Page** - Hidden initially until user clicks 'calculate' Which then will slow scroll automatically to the results page. There is three results populated to give them an idea what they can draw down, deposit needed and total buying potential. Below that is a CTA to share the results.
+  * **Send Results**  - Modal popup to send results to whoever they choose to send the results too. There is feedback on the send message button letting user know the message has in fact been sent. They can either close the modal or reset. Reset will bringing back to the calculator section and reset the message sent feedback. We felt it was good UX to keep the name and email populated so when they recalculate all they have to do is hit the 'Send Message' button.
+
 
 ## Found Bugs & Fixes:
 * When hitting the reset button it does not clear the results - only clears the inputs entered.
