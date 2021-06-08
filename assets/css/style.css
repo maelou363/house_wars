@@ -97,9 +97,9 @@
 }
 
 .questionpopover {
-    font-size: 14px;
-    height: 19px;
-    width: 19px;
+    font-size: 18px;
+    height: 24px;
+    width: 24px;
     background-color: var(--secondary-color);
     border-radius: 50%;
     display: inline-block;
